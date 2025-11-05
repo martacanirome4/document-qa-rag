@@ -1,0 +1,33 @@
+# requirements.txt
+
+# Core LLM & LangChain
+langchain==0.1.0
+langchain-community==0.0.20
+langchain-openai==0.0.5
+
+# Vector Store
+chromadb==0.4.22
+
+# LLM APIs (elige uno o ambos)
+openai==1.10.0
+# anthropic==0.18.0  # descomenta si usas Claude
+
+# Document Processing
+pypdf2==3.0.1
+python-dotenv==1.0.0
+
+# Embeddings & Tokenization
+tiktoken==0.5.2
+sentence-transformers==2.3.1  # Para embeddings locales (opcional)
+
+# Web Interface
+streamlit==1.31.0
+
+# Utilities
+python-magic-bin==0.4.14  # Para detectar tipos de archivo (Windows)
+# python-magic==0.4.27  # Para Linux/Mac
+
+# Development
+pytest==7.4.4
+black==24.1.1
+flake8==7.0.0
